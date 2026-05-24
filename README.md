@@ -60,11 +60,11 @@ covid_analysis/
 ---
 
 ## Results
----=== MODEL COMPARISON ===
-                      MAE        RMSE      R2
-Linear Regression   12453.23   18234.11  0.7123
-Random Forest        8234.56   12456.78  0.8934
-Gradient Boosting    7123.45   11234.56  0.9123
+| Model | MAE | RMSE | R2 Score |
+|------------------|---------|---------|----------|
+| Random Forest | 529.11 | 1275.53 | -0.30 |
+| Linear Regression | 2917.89 | 5975.47 | -27.54 |
+| Gradient Boosting | 3050.97 | 6904.90 | -37.11 |
 
 ## Tech Stack
 
